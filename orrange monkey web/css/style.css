@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@import 'fonts.css';
+
+.contener {
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+}
+
+header .menu li a {
+    font-size: 16px;
+    color: #4e4e4e;
+    margin-left: 22px;
+    font-family: 'moon';
+}
+
+header .menu li a:hover {
+    color: #dd4400;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo span {
+    font-size: 16px;
+    color: #dd4400;
+    font-family: 'moon';
+    margin-left: 22px;
+}
+
+header nav {
+    background: #f8f8f8;
+    padding: 7px 0;
+    box-shadow: 0px -17px 20px 20px #c5c0b5;
+}
+
+header>img {
+    filter: opacity(45%);
+    width: 100%;
+}
+
+/* //////////////////////////////////////////////////////section start/////////////////////////////////////////////////////// */
+
+section .box {
+    width: 255px;
+    box-shadow: 1px 1px 6px 7px #ebded9;
+    padding: 50px 21px 26px 21px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .box h2 {
+    font-family: 'moon';
+    font-size: 18px;
+    font-weight: bold;
+    color: #dd4400;
+    margin-bottom: 30px;
+    padding: 0 12%;
+    text-align: center;
+}
+
+section .box h2::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: linear-gradient(to left, #ddd, #dd4400, #ddd);
+    margin-top: 50px;
+}
+
+section .box a {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'moon';
+    background: #dd4400;
+    padding: 14px 53px;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+section .box a:hover {
+    background: #ff7e46;
+    color: #000000;
+}
+
+section {
+    padding: 50px 0 100px;
+}
+
+/* /////////////////////////////////////////////main start////////////////////////////////////////////////////// */
+
+main .box-left {
+    width: 726px;
+}
+
+main h3 {
+    font-size: 30px;
+    color: #5e5e5e;
+    font-weight: bold;
+    margin-bottom: 53px;
+}
+
+main .box-left p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5e5e5e;
+    margin-bottom: 37px;
+}
+
+main .box-left a {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'moon';
+    background: #dd4400;
+    padding: 14px 53px;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+main .box a:hover {
+    background: #ff7e46;
+    color: #000000;
+}
+
+main .box-right{
+    width: 248px;
+    
+}
+main .box-right .block{
+    display:flex;
+    margin-bottom: 15px;
+}
+main .box-right .block a{
+    font-size: 14px;
+    color: #dd4400;
+    font-family: 'moon';
+    margin-left: 30px;
+}
+main{
+    padding-bottom: 100px;
+}
+
+/* /////////////////////////////////////////////////////footer start//////////////////////////////////////////////////////////////// */
+
+footer{
+    padding: 69px 0;
+    background: #dd4400;
+}
+
+footer .text-right{
+    text-align: end;
+}
+
+

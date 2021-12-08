@@ -1,0 +1,367 @@
+/********************* Font Style ****************/
+@font-face {
+  font-family: "SourseSansPro-Bold";
+  src: url("../fonts/SourceSansPro-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "SourseSansPro-Regular";
+  src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "SourseSansPro-Light";
+  src: url("../fonts/SourceSansPro-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "SourseSansPro-SemiBold";
+  src: url("../fonts/SourceSansPro-SemiBold.ttf") format("truetype"); }
+/********************** Navbar *******************/
+.navbar {
+  height: 71px;
+  background-color: #ffffff; }
+  .navbar .container {
+    margin-left: 100px;
+    margin-right: 110px;
+    width: 100%;
+    height: 71px; }
+    .navbar .container .navbar-brand img {
+      margin-top: 22.65px;
+      margin-bottom: 21.98px; }
+    .navbar .container .input-group .form-control {
+      width: 350px;
+      height: 45px;
+      margin-top: 13px;
+      margin-bottom: 13px; }
+    .navbar .container .input-group .input-group-append {
+      height: 45px;
+      margin-top: 13px;
+      margin-bottom: 13px; }
+
+/********************* Body ******************/
+body {
+  background: #E5E5E5;
+  /******************* Header **************/
+  /****************** Bo'limlar **********/ }
+  body header {
+    height: 459px;
+    background-image: url("../images/header fon.png"); }
+    body header .kasblar {
+      width: 100%;
+      height: 150px;
+      padding-left: 115px;
+      padding-top: 95px;
+      border-radius: nullpx;
+      font-family: SourseSansPro-SemiBold;
+      font-size: 65px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 75px;
+      letter-spacing: -1px;
+      text-transform: uppercase;
+      text-align: left;
+      color: #ffffff; }
+    body header .input-group {
+      width: 920px;
+      height: 60px;
+      margin-top: 150px;
+      margin-left: 120px;
+      background: #F8F8FA;
+      border-radius: 3px; }
+      body header .input-group input {
+        width: 821px;
+        height: 60px;
+        background-color: #F8F8FA;
+        border: 0; }
+      body header .input-group .input-group-append {
+        width: 90px;
+        height: 60px;
+        background-color: #F8F8FA;
+        border: 0; }
+        body header .input-group .input-group-append button {
+          width: 90px;
+          height: 44px;
+          background: #18ADF2;
+          border-radius: 3px;
+          border: 0;
+          font-family: SourseSansPro-Light;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 21px;
+          /* identical to box height */
+          color: #FFFFFF; }
+  body .body {
+    /******************** Cards **************/ }
+    body .body .container-fluid {
+      margin-bottom: 124px; }
+      body .body .container-fluid .row .kurs {
+        width: 258px;
+        height: 80px;
+        margin-left: 119px;
+        margin-top: 97px;
+        font-family: SourseSansPro-SemiBold;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+        color: #000000; }
+      body .body .container-fluid .kurslar {
+        margin-left: 120px;
+        margin-top: 33px;
+        margin-bottom: 0; }
+        body .body .container-fluid .kurslar .bo\'lim {
+          width: 160px;
+          height: 188px;
+          background: #FFFFFF;
+          box-shadow: 0px 19px 19px #F4F4F4;
+          border-radius: 3px; }
+          body .body .container-fluid .kurslar .bo\'lim img {
+            margin-top: 73px;
+            margin-left: 28px; }
+          body .body .container-fluid .kurslar .bo\'lim .links {
+            margin-left: 28px;
+            margin-top: 16px; }
+            body .body .container-fluid .kurslar .bo\'lim .links img {
+              padding: 0;
+              margin: 0;
+              height: 12px;
+              margin-left: 15px; }
+            body .body .container-fluid .kurslar .bo\'lim .links .link {
+              font-family: SourseSansPro-Light;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 16px;
+              line-height: 26px;
+              color: #2F2F2F;
+              text-decoration: none; }
+      body .body .container-fluid .nimadir {
+        margin-left: 30px; }
+      body .body .container-fluid .nimadir-1 {
+        width: 350px;
+        height: 401px;
+        margin-top: 34px;
+        margin-left: 30px;
+        background: #FFFFFF;
+        border-radius: 3px; }
+        body .body .container-fluid .nimadir-1 img {
+          width: 73px;
+          height: 104px;
+          margin-top: 147px;
+          margin-left: 64px; }
+        body .body .container-fluid .nimadir-1 .links {
+          font-family: SourseSansPro-SemiBold;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 30px;
+          line-height: 40px;
+          letter-spacing: -1px;
+          margin-top: 28px;
+          margin-left: 64px; }
+          body .body .container-fluid .nimadir-1 .links p {
+            color: #000000; }
+      body .body .container-fluid .bolim-2 {
+        margin-top: -220px;
+        margin-left: 105px;
+        width: 800px; }
+        body .body .container-fluid .bolim-2 .links {
+          margin-left: 28px;
+          margin-top: 16px; }
+        body .body .container-fluid .bolim-2 .nimadir-2 {
+          margin-left: 0; }
+      body .body .container-fluid .foo {
+        margin-top: 105px;
+        width: 1231px;
+        height: 455px;
+        background-color: #FFFFFF; }
+        body .body .container-fluid .foo .link-p {
+          font-family: SourseSansPro-Bold;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 65px;
+          line-height: 75px;
+          letter-spacing: -1px;
+          text-transform: uppercase;
+          color: #000000;
+          margin-left: 115px;
+          margin-top: 80px; }
+        body .body .container-fluid .foo .logo {
+          margin-top: 127px; }
+      body .body .container-fluid .nimadir-3 {
+        width: 207px;
+        height: 80px;
+        margin-top: 97px;
+        margin-left: 105px;
+        font-family: SourseSansPro-SemiBold;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+        color: #000000; }
+    body .body .container {
+      margin-bottom: 96px;
+      margin-top: -100px; }
+      body .body .container .row .col-4 .card {
+        position: relative; }
+        body .body .container .row .col-4 .card .chiziq-2 {
+          width: 35px;
+          height: 8px;
+          background-color: #2F2F2F;
+          border-radius: 5px; }
+        body .body .container .row .col-4 .card .chiziq-3 {
+          width: 35px;
+          height: 8px;
+          background-color: #DADAE1;
+          border-radius: 5px; }
+        body .body .container .row .col-4 .card .rasmlar {
+          margin-left: -70px; }
+        body .body .container .row .col-4 .card .rasmlar img {
+          margin: 0 -3px; }
+        body .body .container .row .col-4 .card .clock {
+          width: 70px;
+          height: 26px;
+          background: rgba(0, 0, 0, 0.25);
+          backdrop-filter: blur(13.5914px);
+          border-radius: 25px;
+          color: white;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 14px;
+          position: absolute;
+          top: 20px;
+          right: 20px; }
+        body .body .container .row .col-4 .card .yulduzcha p {
+          color: black; }
+        body .body .container .row .col-4 .card .clock p {
+          color: white; }
+        body .body .container .row .col-4 .card .Pro {
+          width: 40px;
+          height: 25px;
+          background-color: #2F2F2F;
+          border: 3px solid #ffffff;
+          border-radius: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          left: 30px;
+          top: 182px; }
+        body .body .container .row .col-4 .card .Pro h6 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 9px;
+          line-height: 11px;
+          color: white; }
+      body .body .container .row .foydalanuvchi {
+        font-family: SourseSansPro-SemiBold;
+        margin-top: 96px;
+        margin-left: 15px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+        color: #000000; }
+      body .body .container .row .carousel {
+        overflow: hidden; }
+        body .body .container .row .carousel .carousel-indicators {
+          position: absolute;
+          top: 361px;
+          left: -920px; }
+          body .body .container .row .carousel .carousel-indicators li {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 1px solid #979797;
+            box-sizing: border-box;
+            border: 1px solid #979797;
+            background-color: #FFFFFF; }
+          body .body .container .row .carousel .carousel-indicators .active {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 1px solid #979797;
+            box-sizing: border-box;
+            border: 1px solid #979797;
+            background-color: #000000; }
+        body .body .container .row .carousel .carousel-item .karidel-1 {
+          padding-right: 250px; }
+          body .body .container .row .carousel .carousel-item .karidel-1 .karusel {
+            margin-top: 38px;
+            margin-left: 15px;
+            width: 900px;
+            height: 414px;
+            background-color: #FFFFFF;
+            position: relative; }
+            body .body .container .row .carousel .carousel-item .karidel-1 .karusel img {
+              margin-top: 30px;
+              margin-left: 39px; }
+          body .body .container .row .carousel .carousel-item .karidel-1 .posit {
+            position: absolute;
+            top: 120px;
+            bottom: 81px;
+            left: 862px;
+            width: 248px;
+            height: 251px;
+            mix-blend-mode: normal;
+            border-radius: 3px; }
+          body .body .container .row .carousel .carousel-item .karidel-1 .posit-1 {
+            position: absolute;
+            width: 330px;
+            height: 335px;
+            top: 78px;
+            left: 759px;
+            border-radius: 3px; }
+        body .body .container .row .carousel .carousel-item .carousel-caption {
+          padding-bottom: 70px;
+          margin-left: -70px; }
+          body .body .container .row .carousel .carousel-item .carousel-caption matn {
+            width: 510px;
+            height: 132px;
+            font-family: SourseSansPro-Light;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 33px;
+            color: #6C6C6C; }
+          body .body .container .row .carousel .carousel-item .carousel-caption .mant-1 {
+            margin-top: 31px;
+            font-family: SourseSansPro-SemiBold;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: #2F2F2F; }
+      body .body .container .row .hamkor {
+        width: 171px;
+        height: 80px;
+        margin-top: 97px;
+        margin-left: 13px;
+        font-family: SourseSansPro-SemiBold;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+        color: #000000; }
+      body .body .container .row .hamkor-1 {
+        margin-top: 10px;
+        width: 100%;
+        background-color: #E5E5E5; }
+        body .body .container .row .hamkor-1 img {
+          width: 100%;
+          padding-left: 15px;
+          padding-right: 15px;
+          background-color: #E5E5E5; }
+      body .body .container .footer {
+        padding-top: 81px; }
+        body .body .container .footer h6 {
+          color: black;
+          font-family: SourseSansPro-SemiBold; }
+        body .body .container .footer p {
+          font-family: SourseSansPro-Light;
+          color: #6C6C6C; }
+
+/*# sourceMappingURL=main.css.map */

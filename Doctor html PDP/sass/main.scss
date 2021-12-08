@@ -1,0 +1,359 @@
+/*********************  FONTS STYLE *************************/
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../asssets/fonts/Inter/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../asssets/fonts/Inter/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../asssets/fonts/Inter/Inter-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../asssets/fonts/Inter/Inter-SemiBold.ttf") format("truetype");
+}
+
+.font-intel-bold {
+  font-family: "Inter-Bold", sans-serif;
+}
+
+.font-intel-regular {
+  font-family: "Inter-Regular", sans-serif;
+}
+
+.font-intel-light {
+  font-family: "Inter-Light", sans-serif;
+}
+
+.font-inter-semi-bold {
+  font-family: "Inter-SemiBold", sans-serif;
+}
+
+// //////////////////////////////////////////////////////////////////////// colors
+
+$color-purple: #800A7A;
+$color-yellow: #f1b301;
+$color-black: #222124;
+$color-orange: #e76a06;
+$color-pink: #fc96f7;
+$color-gray: #f5f5f5;
+$color-text: #a6a6a8;
+
+// //////////////////// icon style ///////////////////
+
+body{
+  background:  #FAFAFB;
+}
+
+.left {
+  width: 85px;
+  height: 1411px;
+  background: #FDFDFE;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.109566);
+
+  h4 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    padding: 45px 18px 0;
+  }
+
+  ul {
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+
+    li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        list-style: none;
+        text-decoration: none;
+
+        .pic1 {
+          padding: 105px 33px 0;
+        }
+
+        .pic2 {
+          padding-top: 50px;
+        }
+
+        .pic3 {
+          padding-top: 57px;
+        }
+
+        .pic4 {
+          padding-top: 47px;
+        }
+
+        .pic5 {
+          padding-top: 880px;
+        }
+      }
+    }
+  }
+
+}
+
+.right {
+  .hot {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FF1010;
+    padding: 0 30px 0 15px; 
+    text-decoration: none;
+  }
+  .final{
+    margin-top: 71px;
+    .hard1{
+      border-top-right-radius: 10px ;
+      border-top-left-radius: 10px ;
+      border: none;
+      margin-top: 45px;
+      .card-body{
+        .incard{
+          h4{
+            padding-top: 15px;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 26px;
+            padding-left: 20px;
+          }
+          p{
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 23px;
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+    .hard2{
+      background: #FDFDFE;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border: none;
+      margin-top: 3px;
+      .card-body{
+        .div1{
+          p{
+            margin-bottom: 0;
+            padding-left: 10px;
+          }
+          .dock{
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: gray;
+            margin-left: 13px;
+          }
+        }
+        .div2{
+          img{
+            padding-left: 35px;
+          }
+        }
+      }
+    }
+  }
+  
+  nav {
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.109566);
+    border-radius: 25px;
+    margin-top: 29px;
+
+
+    h4 {
+      font-family: SF Pro Display;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      color: #FF1010;
+    }
+
+    .nav-item {
+      
+      .nav-link {
+        padding: 10px 15px;
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 15px;
+        color: #9E9E9E;
+
+
+        &.active {
+          border-bottom: 3px solid #BFBFBF;
+          color: #000;
+        }
+      }
+    }
+  }
+  
+  .col-5{
+    .part-end{
+      .card{
+        margin-top: 71px;
+        .card-body{
+          p{
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 15px;
+          }
+          button{
+            width: 95%;
+            margin-left: 10px;
+          }
+          .pp{
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 18px;
+            padding-top: 10px;
+          }
+        }
+      }
+      .card1{
+        .card-body{
+          .h5end{
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+          }
+          .text-secondary{
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 13px;
+            color: #9E9E9E;
+          }
+          img{
+            padding-bottom: 8px;
+          }
+        }
+      }
+      
+      .card2{
+        .card-body{
+          padding-left: 15px;
+          h3{
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 25px;
+            color: #000000;
+          }
+          h4{
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 15px;
+            color: #656565;
+          }
+          p{
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #000000;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            margin-bottom: 0;
+            padding-top: 36px;
+          }
+          h1{
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 25px;
+            color: #000000;
+          }
+        }
+        .d-flex{
+          .card-body{
+            width: 81px;
+            h6{
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 16px;
+              color: #000000;
+              mix-blend-mode: normal;
+              opacity: 0.5;
+              padding-bottom: 12px;
+            }
+            p{
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 13px;
+              color: #000000;
+              padding-top: 13px !important;
+            }
+          }
+        }
+      }
+      
+      .card3{
+        .card-header{
+          h5{
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 15px;
+            color: #000000;
+            padding-bottom: 30px;
+          }
+          .d-flex{
+            p{
+              font-family: SF Pro Display;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 13px;
+              line-height: 16px;
+              color: #4C4C4C;
+            }
+            .text-danger{
+              padding-right: 100px;
+              padding-left: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}

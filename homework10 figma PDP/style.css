@@ -1,0 +1,89 @@
+.ozi{
+    height: 1270px;
+    width: 70px;
+    
+}
+
+.pnki{
+   
+    padding-top: 60px;
+}
+
+.pnki p{
+    margin-left: 8px;
+}
+
+.img1{
+    margin-top: 100px;
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.img2{
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.img3{
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.img4{
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.rasm2{
+    padding-top: 830px;
+    margin-left: 20px;
+}
+
+.book{
+    display: flex;
+    
+}
+
+.circle1{
+    
+    padding: 18px;
+    background-color: whitesmoke;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+.circle2{
+
+    padding: 18px;
+    background-color: whitesmoke;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.circle{
+
+    padding: 18px;
+    background-color: whitesmoke;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+.orta{
+    background-color: gray;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.abi{
+    font-size: 30px;
+    
+}
+
+.col-11{
+    background-color: rgb(231, 224, 224);
+    height: 140px;
+}

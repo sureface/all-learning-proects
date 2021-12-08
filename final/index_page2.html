@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-2</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.min.css">
+    <link rel="stylesheet" href="css/main_page2.css">
+</head>
+<body>
+    <!--nav qismi ulanadigan bo'sa repnonsvligini qilish kk va iconkalarning joyini qaytadan ko'rsatmasa-->
+    <!--ochmay qolishi mumkin shu yerdan tepada navbar qoylilsa bo'ldi-->
+
+    <div class="gotop">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&UpArrow;</button>
+    </div>
+    
+    
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$4 nav $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+    <section class="header-nav ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar w-100 navbar-expand-lg ">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img src="asssets/images/logo.png" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                              </button>
+                            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                                <div class="w-100 d-flex justify-content-between align-items-center">
+                                    
+                                    <div class="dropdown">
+                                        <button type="button" class="btn" data-toggle="dropdown">
+                                            Barcha kurslar <img src="asssets/images/icondown.png" alt="">
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="page1.html">Bosh Sahifa</a>
+                                            <a class="dropdown-item" href="#">Bizning Kurslar</a>
+                                            <a class="dropdown-item" href="page3.html">Kurslar Haqida</a>
+                                            <a class="dropdown-item" href="page4.html">Foydalanuvchilar</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="dropdown">
+                                            <button type="button" class="btn bbt" data-toggle="dropdown">
+                                                UZBEK <img src="asssets/images/Vector (17).png" alt="">
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">USA</a>
+                                                <a class="dropdown-item" href="#">RU</a>
+                                                <a class="dropdown-item" href="#">UK</a>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn-primary ">KIRISH</button>
+                                    </div>
+    
+                                </div>
+                                
+                              
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <!--header qismida seach bolimi bilan pasdagi birinchi menular joylashgan-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="search d-flex flex-wrap align-items-center ">
+                    <h1 class="font-SF-Pro-Display-Black">Bizning kurslar</h1>
+                    <div class="input-group">
+                        <input type="text" class="form-control  bg-white border-0 shadow-none" placeholder="Qanday kurs o'rganmochisiz ?">
+                        <div class="input-group-append">
+                            <button type="button" class="btn bg-white shadow-none">
+                                <img src="assets/Home_page_2/icons/search.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav d-flex w-100 justify-content-between">
+                    <div id="marker"></div>
+                    <li class="nav-item"><a href="#all" data-toggle="tab" class=" ana nav-link active font-SF-Pro-Display-Medium">Barchasi</a></li>
+                    <li class="nav-item"><a href="#dasturlash" data-toggle="tab" class=" ana nav-link font-SF-Pro-Display-Medium">Dasturlash</a></li>
+                    <li class="nav-item"><a href="#dizayn" data-toggle="tab" class=" ana nav-link font-SF-Pro-Display-Medium">Dizayn</a></li>
+                    <li class="nav-item"><a href="#marketing" data-toggle="tab" class=" ana nav-link font-SF-Pro-Display-Medium">Marketing</a></li>
+                    <li class="nav-item"><a href="#biznes" data-toggle="tab" class=" ana nav-link font-SF-Pro-Display-Medium">Biznes</a></li>
+                    <li class="nav-item"><a href="#salomatlik" data-toggle="tab" class=" ana nav-link font-SF-Pro-Display-Medium">Salomatlik</a> </li>
+                    <li class="nav-item"><a href="#menejment" data-toggle="tab" class=" ana nav-link font-SF-Pro-Display-Medium">Menejment</a></li>
+                    <li class="nav-item"><a href="#buxgalteriya" data-toggle="tab" class=" ana nav-link font-SF-Pro-Display-Medium">Buxgaltriya</a></li>
+                    <li class="nav-item"><a href="#xavfsizlik" data-toggle="tab" class=" ana nav-link font-SF-Pro-Display-Medium">Xavfsizlik</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+    <!--bu qisimda asosiy kontentla joylandan yani webdasturlashni bosganda chiqadigan menular;-->
+    <!--barjasida joylashgan cards lar ham all id si ichida;-->
+    <!--web id sida web dasuturlash ni tanlasa chiqadian menular qoyilgan-->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="tab-content">
+                    <div class="tab-pane fade" id="dasturlash">
+                        <section>
+                            <div class="rowal">
+                                <ul class="nav w-100 d-flex justify-content-between flex-wrap">
+                                    <div id="marker"></div>
+                                    <li class="nav-item position-relative">
+                                        <a href="#all" data-toggle="tab" class="nav-link active font-SF-Pro-Display-Medium">Barchasi
+                                            <div class="bag  font-SF-Pro-Display-Medium">142 ta</div>
+                                        </a> 
+                                    </li>
+                                    <li class="nav-item position-relative">
+                                        <a href="#game" data-toggle="tab" class="nav-link font-SF-Pro-Display-Medium">Game dasturlash
+                                        </a>                           
+                                    </li>
+                                    <li class="nav-item position-relative">
+                                        <a href="#web" data-toggle="tab" class="nav-link font-SF-Pro-Display-Medium">Web dasturlash
+                                            <div class="bag font-SF-Pro-Display-Medium">142 ta</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item position-relative">
+                                        <a href="#desktop" data-toggle="tab" class="nav-link font-SF-Pro-Display-Medium">Desktop dasturlash
+                                        </a>
+                                    </li>
+                                    <li class="nav-item position-relative">
+                                        <a href="#apparat" data-toggle="tab" class="nav-link font-SF-Pro-Display-Medium">Apparat dasturlash
+                                        </a>
+                                    </li>
+                                    <li class="nav-item position-relative">
+                                        <a href="#mobile" data-toggle="tab" class="nav-link font-SF-Pro-Display-Medium">Mobil dasturlash
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section> 
+                    </div>
+                    <div class="tab-pane fade" id="dizayn">
+                            <h1 class="font-SF-Pro-Display-Black"> No information ...</h1> 
+                    </div>
+                    <div class="tab-pane fade" id="marketing">
+                        <h1 class="font-SF-Pro-Display-Black"> No information ...</h1> 
+                    </div>
+                    <div class="tab-pane fade" id="biznes">
+                        <h1 class="font-SF-Pro-Display-Black"> No information ...</h1> 
+                    </div>
+                    <div class="tab-pane fade" id="salomatlik">
+                        <h1 class="font-SF-Pro-Display-Black"> No information ...</h1> 
+                    </div>
+                    <div class="tab-pane fade" id="menejment">
+                        <h1 class="font-SF-Pro-Display-Black"> No information ...</h1> 
+                    </div>
+                    <div class="tab-pane fade" id="buxgalteriya">
+                        <h1 class="font-SF-Pro-Display-Black"> No information ...</h1> 
+                    </div>
+                    <div class="tab-pane fade" id="xavfsizlik">
+                        <h1 class="font-SF-Pro-Display-Black"> No information ...</h1> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="container">
+            <div class="row">
+                
+                <div class="tab-content w-100">
+                    <div class="tab-pane active" id="all">
+                        <div class="sector d-flex justify-content-between align-items-center">
+                            <div class="dropdown">
+                                <button type="button" class="btn " data-toggle="dropdown">Filter <img src="assets/Home_page_2/images/icondown.png" alt=""></button>
+                                <div class="dropdown-menu">
+                                    <div class="d-flex justify-content-between flex-wrap">
+                                        <div>
+                                            <h5>Tartiblash turlari</h5>
+                                            <input type="checkbox" name="color" id="input11">
+                                            <label for="input11">Yangi kurslar</label><br>
+                                            <input type="checkbox" name="color" id="input12">
+                                            <label for="input12">Ko'p Ko'rilganlar</label><br>
+                                            <input type="checkbox" name="color" id="input13">
+                                            <label for="input13">Eng baland narx</label><br>
+                                            <input type="checkbox" name="color" id="input14">
+                                            <label for="input14">Eng past narx</label><br>
+                                            <input type="checkbox" name="color" id="input15">
+                                            <label for="input15">A-Z bo'yicha</label><br>
+                                            <input type="checkbox" name="color" id="input16">
+                                            <label for="input16">Z-A bo'yicha</label><br>
+                                        </div>
+                                        <div>
+                                            <h5>Reyting bo'yicha</h5>
+                                            <input type="checkbox" name="col" id="input21">
+                                            <label for="input21" class="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                5.0
+                                            </label><br>
+                                            <input type="checkbox" name="col" id="input22">
+                                            <label for="input22" class="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                                4.0 dan yuqori
+                                            </label><br>
+                                            <input type="checkbox" name="col" id="input23">
+                                            <label for="input23" class="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                                3.0 dan yuqori
+                                            </label><br>
+                                            <input type="checkbox" name="col" id="input24">
+                                            <label for="input24" class="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                                3.0 dan past
+                                            </label><br>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="menu">
+                                <a href="#" ><img src="asssets/icons/Group 32.svg" alt=""></a>
+                                <a href="#" class="ml-2"><img src="asssets/icons/Group 31.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="cards mt-5">
+                           <div class="car">
+                               <div class="rasm">
+                                    <img src="asssets/images/download (5).png" alt="">
+                               </div>
+                               <div class="col-sm-6 col-10">
+                                   <h3 class="mb-0 font-SF-Pro-Display-Bold">AWS: ECS va ko'p mintaqali Lorem ipsum dolor sit amet.</h3>
+                                   <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus 
+                                       ipsam totam qui modi odit, ad quod omnis aperiam, 
+                                       quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                   <div class="keys">
+                                           <div class="soat">
+                                                <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                                <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                           </div>
+                                           <div class="narx">
+                                               <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                               <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                           </div>
+                                           <div class="stars d-flex align-items-center">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector (1).svg" alt="">
+                                            <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                           </div>
+                                   </div>
+                               </div>
+                               <div class="right">
+                                  <a href="#"> <i class=" text-warning fas fa-hand-point-right fa-1x"></i></a> 
+                               </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm d-flex justify-content-center align-items-center pl-5 pr-5">
+                                 <img src="asssets/images/download.png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10 pl-5">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">Kasperiskiy asoslari amalyot AWS: ECS va ko'p.</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus 
+                                    ipsam totam qui modi odit, ad quod omnis aperiam, 
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"> <i class=" text-warning fas fa-hand-point-right fa-1x"></i></a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="asssets/images/download (2).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">RESTful API-lari yaratish bo'yicha amaliy topshiriqlar</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus 
+                                    ipsam totam qui modi odit, ad quod omnis aperiam, 
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"><i class=" text-warning fas fa-hand-point-right fa-1x"></i></a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                <img src="asssets/images/download (3).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">Autentifikatsiya bilan Vue va tugunli dasturlarni qurish</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus 
+                                    ipsam totam qui modi odit, ad quod omnis aperiam, 
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"> <i class=" text-warning fas fa-hand-point-right fa-1x"></i>  </a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="asssets/images/download (4).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">IOS bo'yicha dasturlash kurslari</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus 
+                                    ipsam totam qui modi odit, ad quod omnis aperiam, 
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"><i class=" text-warning fas fa-hand-point-right fa-1x"></i></a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="asssets/images/download (3).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">RESTful API-lari yaratish bo'yicha amaliy topshiriqlar</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus 
+                                    ipsam totam qui modi odit, ad quod omnis aperiam, 
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"> <i class=" text-warning fas fa-hand-point-right fa-1x"></i></a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="asssets/images/download (1).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">Ishlab chiqaruvchilar uchun AWS: Lambdas bilan PayPal to'lovarini qayta ishlah</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus 
+                                    ipsam totam qui modi odit, ad quod omnis aperiam, 
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"> <i class=" text-warning fas fa-hand-point-right fa-1x"></i></a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="asssets/images/download (5).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">Angular va Spring boot 2 yordamida raktiv dasturlar yaratish</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus 
+                                    ipsam totam qui modi odit, ad quod omnis aperiam, 
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector.svg" alt="">
+                                            <img src="asssets/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"><i class=" text-warning fas fa-hand-point-right fa-1x"></i></a> 
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="game">
+                        <h1 class="font-SF-Pro-Display-Black"> No information ...</h1> 
+                    </div>
+                    <div class="tab-pane fade" id="web">
+                        <div class="sector d-flex justify-content-between align-items-center">
+                            <div class="dropdown">
+                                <button type="button" class="btn " data-toggle="dropdown">Filter <img src="assets/Home_page_2/images/icondown.png" alt=""></button>
+                               
+                                <div class="dropdown-menu">
+                                    <div class="d-flex justify-content-between flex-wrap">
+                                        <div>
+                                            <h5>Tartiblash turlari</h5>
+                                            <input type="checkbox" name="color" id="input11">
+                                            <label for="input11">Yangi kurslar</label><br>
+                                            <input type="checkbox" name="color" id="input12">
+                                            <label for="input12">Ko'p Ko'rilganlar</label><br>
+                                            <input type="checkbox" name="color" id="input13">
+                                            <label for="input13">Eng baland narx</label><br>
+                                            <input type="checkbox" name="color" id="input14">
+                                            <label for="input14">Eng past narx</label><br>
+                                            <input type="checkbox" name="color" id="input15">
+                                            <label for="input15">A-Z bo'yicha</label><br>
+                                            <input type="checkbox" name="color" id="input16">
+                                            <label for="input6">Z-A bo'yicha</label><br>
+                                        </div>
+                                        <div>
+                                            <h5>Reyting bo'yicha</h5>
+                                            <input type="checkbox" name="col" id="input21">
+                                            <label for="input21" class="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                5.0
+                                            </label><br>
+                                            <input type="checkbox" name="col" id="input22">
+                                            <label for="input22" class="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                                4.0 dan yuqori
+                                            </label><br>
+                                            <input type="checkbox" name="col" id="input23">
+                                            <label for="input23" class="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                                3.0 dan yuqori
+                                            </label><br>
+                                            <input type="checkbox" name="col" id="input24">
+                                            <label for="input24" class="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                                <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                                3.0 dan past
+                                            </label><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu">
+                                <a href="#" ><img src="assets/Home_page_2/icons/Group 32.svg" alt=""></a>
+                                <a href="#" class="ml-2"><img src="assets/Home_page_2/icons/Group 31.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="cards mt-5">
+                           <div class="car">
+                               <div class="rasm">
+                                    <img src="assets/Home_page_2/images/download (5).png" alt="">
+                               </div>
+                               <div class="col-sm-6 col-10">
+                                   <h3 class="mb-0 font-SF-Pro-Display-Bold">AWS: ECS va ko'p mintaqali Lorem ipsum dolor sit amet.</h3>
+                                   <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus
+                                       ipsam totam qui modi odit, ad quod omnis aperiam,
+                                       quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                   <div class="keys">
+                                           <div class="soat">
+                                                <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                                <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                           </div>
+                                           <div class="narx">
+                                               <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                               <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                           </div>
+                                           <div class="stars d-flex align-items-center">
+                                            <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                            <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                            <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                            <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                            <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                            <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                           </div>
+                                   </div>
+                               </div>
+                               <div class="right">
+                                  <a href="#"> <span class="icon icon-right"></span></a> 
+                               </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="assets/Home_page_2/images/download.png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">Kasperiskiy asoslari amalyot AWS: ECS va ko'p.</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus
+                                    ipsam totam qui modi odit, ad quod omnis aperiam,
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"> <span class="icon icon-right"></span></a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="assets/Home_page_2/images/download (2).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">RESTful API-lari yaratish bo'yicha amaliy topshiriqlar</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus
+                                    ipsam totam qui modi odit, ad quod omnis aperiam,
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"> <span class="icon icon-right"></span></a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="assets/Home_page_2/images/download (3).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">Autentifikatsiya bilan Vue va tugunli dasturlarni qurish</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus
+                                    ipsam totam qui modi odit, ad quod omnis aperiam,
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"> <span class="icon icon-right"></span></a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="assets/Home_page_2/images/download (2).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">IOS bo'yicha dasturlash kurslari</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus
+                                    ipsam totam qui modi odit, ad quod omnis aperiam,
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"> <span class="icon icon-right"></span></a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="assets/Home_page_2/images/download (3).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">RESTful API-lari yaratish bo'yicha amaliy topshiriqlar</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus
+                                    ipsam totam qui modi odit, ad quod omnis aperiam,
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"> <span class="icon icon-right"></span></a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="assets/Home_page_2/images/download (4).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">Ishlab chiqaruvchilar uchun AWS: Lambdas bilan PayPal to'lovarini qayta ishlah</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus
+                                    ipsam totam qui modi odit, ad quod omnis aperiam,
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"> <span class="icon icon-right"></span></a> 
+                            </div>
+                           </div>
+                           <div class="chiziqcha"></div>
+                           <div class="car">
+                            <div class="rasm">
+                                 <img src="assets/Home_page_2/images/download (5).png" alt="">
+                            </div>
+                            <div class="col-sm-6 col-10">
+                                <h3 class="mb-0 font-SF-Pro-Display-Bold">Angular va Spring boot 2 yordamida raktiv dasturlar yaratish</h3>
+                                <p class="p mb-0 font-SF-Pro-Display-Medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum doloribus
+                                    ipsam totam qui modi odit, ad quod omnis aperiam,
+                                    quaerat non et dolorum nostrum suscipit magni asperiores possi....</p>
+                                <div class="keys">
+                                        <div class="soat">
+                                             <p class="mb-0 font-SF-Pro-Display-Bold ">Kurs hajmi</p>
+                                             <h4 class="mb-0 font-SF-Pro-Display-Bold">38 soat</h4>
+                                        </div>
+                                        <div class="narx">
+                                            <p class="mb-0 font-SF-Pro-Display-Bold"> Kurslar narxi</p>
+                                            <h4 class="mb-0 font-SF-Pro-Display-Bold">2500.000 <span class="uzs">UZS</span></h4>
+                                        </div>
+                                        <div class="stars d-flex align-items-center">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector.svg" alt="">
+                                         <img src="assets/Home_page_2/icons/Vector (1).svg" alt="">
+                                         <h5 class="ml-1 mb-0 font-SF-Pro-Display-Bold">4.1 <span class="font-SF-Pro-Display-Medium numb">(524)</span></h5>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                               <a href="#"> <span class="icon icon-right"></span></a> 
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="desktop">
+                        <h1 class="font-SF-Pro-Display-Black"> No information ...</h1> 
+                    </div>
+                    <div class="tab-pane fade" id="apparat">
+                        <h1 class="font-SF-Pro-Display-Black"> No information ...</h1> 
+                    </div>
+                    <div class="tab-pane fade" id="mobile">
+                        <h1 class="font-SF-Pro-Display-Black"> No information ...</h1> 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="downloading d-flex justify-content-center align-items-center">
+                <div class="boldi">
+                    <div class="snippet" data-title=".dot-pulse">
+                      <div class="stage">
+                        <div class="dot-pulse"></div>
+                      </div>
+                    </div>
+                </div>
+                <h5 class="mb-0 font-intel-bold">Yuklanmoqda...</h5>
+            </div>
+            
+            
+        </div>
+
+    </main>
+
+    
+    <main class="oddiy"></main>
+
+    <!--bu yerga footer qisim joylangan agar yangisi qoylilsa shuni orniga qo'ysa bo'ladi-->
+    <!--lekin bitta muammo responsivlikni qaytada qilish ga to'g;ri kelishi mumkin-->
+    <!--keyn man hozirda iconkachalarim alohida popka qilib qoyilga agarda yangi yuter ulansa-->
+    <!--osha iconkalarning yolii qaytada ko'rsatish kerak-->
+    <footer class="footer-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 one">
+                    <div class="row">
+                        <div class="col-2">
+                            <h4>Asosiy</h4>
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item"><a href="#" class="nav-link">Loyiha haqida</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Kurslar</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Mentorlarga</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Ommaviy oferta</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Maxfiylik siyosati</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <h4>Qo’shimcha</h4>
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item"><a href="#" class="nav-link">Bizning jamoa</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Biz bilan hamkorlik</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Bu qanday ishlaydi ?</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <h4>Qo’llab quvvatlash</h4>
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item"><a href="#" class="nav-link">Eng ko’p beriladigan savollar</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Kontakt</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <h4 class="mb-0">To’lov turlari</h4>
+                            <div class="d-flex  align-items-center">
+                                <img class="pic" src="asssets/icons/payme.png" alt="">
+                                <img class="pic" src="asssets/icons/click.png" alt="">
+                                <img class="pic" src="asssets/icons/upay_logo_new.png" alt="">
+                            </div>
+                            <p>
+                                100011, Toshkent sh. Shayxontohur tum.,
+                                Zarqaynar ko'ch., 3B-uy
+                            </p>
+                            <button type="button" class="btn">Biz bilan aloqa</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 two">
+                    <div class="imeges">
+                        <i class="kok fab fa-telegram fa-2x"></i>
+                        <i class="fab fa-instagram-square fa-2x"></i>
+                        <i class="kok fab fa-facebook fa-2x"></i>
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </div>
+                </div>
+                <div class="col-12 three d-flex align-items-center">
+                    <p>© 2019 storm.uz</p>
+                    <div class="line"></div>
+                    <p>Personal Development Process LLC</p>
+                    <div class="line"></div>
+                    <p>Foydalanish shartlari</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="add.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>

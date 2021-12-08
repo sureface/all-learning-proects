@@ -1,0 +1,92 @@
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+  }
+  
+  .box a {
+    width: 100px;
+    background-color: #51eb0a;
+    border: 1px solid rgb(0, 204, 255);
+    display: inline-block;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+  } 
+  
+  .box a:hover {
+    background: #000000;
+  }
+  
+  .box {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .boxp {
+    text-align: center;
+    color: red;
+    font-size: large;
+  }
+  
+  .box2 {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .box1 img {
+    border-radius: 10px;
+    border: 2px solid #222222;
+  }
+  
+ .pic{
+   background: url(https://365psd.com/images/previews/03f/abstract-green-background-wallpaper-vector-graphic-3346.jpg) no-repeat  center center / cover;
+ } 
+ 
+ .box3 {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.box1 img {
+  border-radius: 10px;
+  border: 2px solid #222222;
+}
+
+.ad{
+  text-align: center;
+  background: hsl(56, 95%, 40%);
+  color: #555555;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+ 
+ .joy{
+   margin-top: 100px;
+ }
+ .vidio{
+   text-align: center;
+ }
+ 
+ .block{
+   width: 1000px;
+   margin: auto;
+   border: 2px solid #222222;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+ .map{
+  text-align: center;
+ }
+ .mp3 {
+  text-align: center;
+}

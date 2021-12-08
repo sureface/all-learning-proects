@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*********************  FONTS STYLE *************************/
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../asssets/fonts/Inter/Inter-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../asssets/fonts/Inter/Inter-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../asssets/fonts/Inter/Inter-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../asssets/fonts/Inter/Inter-SemiBold.ttf") format("truetype"); }
+.font-intel-bold {
+  font-family: "Inter-Bold", sans-serif; }
+
+.font-intel-regular {
+  font-family: "Inter-Regular", sans-serif; }
+
+.font-intel-light {
+  font-family: "Inter-Light", sans-serif; }
+
+.font-inter-semi-bold {
+  font-family: "Inter-SemiBold", sans-serif; }
+
+body .header-bg {
+  background-image: url("../asssets/images/04_nght_low копия 1.png");
+  background-size: 100%;
+  background-attachment: fixed;
+  height: 730px;
+  position: relative; }
+  body .header-bg .lastpic {
+    position: absolute;
+    top: 500px;
+    left: 1174px; }
+  body .header-bg .box .knopkaqzl {
+    position: absolute;
+    top: 321px;
+    left: 466px;
+    background: #E41D37;
+    border: 6px solid #E41D37;
+    box-sizing: border-box;
+    border-radius: 64px;
+    height: 94px;
+    font-size: 26px;
+    color: #FFFFFF;
+    padding: 7px 54px 7px 54px; }
+  body .header-bg .box .knopkakok {
+    position: absolute;
+    top: 442px;
+    left: 532px;
+    background: #009CA5;
+    border-radius: 60px;
+    border: 6px solid #009CA5;
+    box-sizing: border-box;
+    height: 58px;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 7px 26px 7px 26px; }
+  body .header-bg .soat_size {
+    font-family: "Artegra Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    padding-right: 26px; }
+  body .header-bg .topga {
+    position: absolute;
+    top: -20px;
+    left: -64px; }
+  body .header-bg .ozbegim-big {
+    position: absolute;
+    top: 100px;
+    left: 312px;
+    width: 590px;
+    height: 177px; }
+  body .header-bg .style_menu {
+    font-family: "sans-serif";
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF; }
+body .footer_bg {
+  background: #DDA143; }
+  body .footer_bg .phone {
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF; }
+  body .footer_bg .pas {
+    margin-bottom: 0 !important; }
+
+/*# sourceMappingURL=main.css.map */

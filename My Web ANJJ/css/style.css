@@ -1,0 +1,354 @@
+@import '../css/fonts.css';
+
+:root {
+    --m-b: 'Montserrat-Black';
+    --m-bold: 'Montserrat-Bold';
+    --m-el: 'Montserrat-ExtraLight';
+    --m-m: 'Montserrat-Medium';
+    --m-r: 'Montserrat-Regular';
+    --m-thin: 'Montserrat-Thin';
+    --m-l: 'Montserrat-Light';
+    --a-color: #ff6816;
+    --dur: 1s;
+    --bg: #e3e4e8;
+    --fg: #17181c;
+    --input: #ffffff;
+    --primary: #ff6816;
+    --col-1: calc(100% / 12 * 1);
+    --col-2: calc(100% / 12 * 2);
+    --col-3: calc(100% / 12 * 3);
+    --col-4: calc(100% / 12 * 4);
+    --col-5: calc(100% / 12 * 5);
+    --col-6: calc(100% / 12 * 6);
+    --col-7: calc(100% / 12 * 7);
+    --col-8: calc(100% / 12 * 8);
+    --col-9: calc(100% / 12 * 9);
+    --col-10: calc(100% / 12 * 10);
+    --col-11: calc(100% / 12 * 11);
+    --col-12: calc(100% / 12 * 12);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.anjj-logo {
+    width: 150px;
+	height: 100px;
+}
+
+.nav-link{
+    padding: 0 20px;
+    background: #555555;
+    color: #ffffff;
+    border:2px solid #ff6816;
+    border-radius: 6px;
+    font-size: 20px;
+    transition: 1s;
+}
+
+
+.nav-link:hover{
+    background: #ffffff;
+    color:#ff6816;
+    
+}
+
+.pic{
+    height: 600px;
+    position: relative;
+}
+
+.position-berish-kk{
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    padding: 40px;
+    background: #7a7a7a;
+    opacity: 0.6;
+    margin: auto;
+}
+
+.room-h{
+    color: #ff6816;
+    font-family: var(--m-bold);
+    font-size:50px;
+}
+
+.room-p{
+    color: #1900ff;
+    font-size: 30px;
+    font-family: var(--m-b);
+}
+
+.dollar{
+   color: red;
+   font-size: 35px;
+}
+
+/* //////////////////////// main //////////////// */
+
+#home-info{
+    height: 400px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: url(../img/history1.jpg)no-repeat center center / cover;
+}
+
+#home-info .info-cantent{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    line-height: 30px;
+}
+
+.btn{
+    padding: 5px 20px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #333;
+    transition: 0.5s;
+}
+
+.main_info_h2{
+    color: #ff6816;
+}
+
+.btn:hover{
+    color: #ff6816;
+    background: #ffffff;
+    font-size: 23px;
+}
+
+.main-p{
+    color: #ffffff;
+}
+
+/*///////////////// main end /////////////////0*/
+
+.bg_qoyish_kk{
+    background: #ff6816;
+}
+
+.box{
+   width: 33.3%;
+   float: left;
+   text-align: center;
+   padding: 50px;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+/* ............ footer end///////////////////////////// */
+
+#footer_end{
+    text-align: center;
+    background: #333;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#footer_end a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#footer_end a:hover{
+    color: #ff6816;
+    font-size: 23px;
+}
+
+.clr{
+    clear: both;
+}
+
+
+
+/* ////////////////////// btn search start //////////////////// */
+
+.wonted{
+    color: #ff6816;
+}
+
+#search{
+    color: #ff6816;
+}
+
+body,
+input {
+    font: 1em/1.5 Hind, sans-serif;
+}
+
+
+form,
+input,
+.caret {
+    margin: auto;
+}
+
+form {
+    position: relative;
+    width: 100%;
+    max-width: 17em;
+}
+
+input,
+.caret {
+    display: block;
+    transition: all calc(var(--dur) * 0.5) linear;
+}
+
+input {
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.25em inset;
+    caret-color: var(--primary);
+    width: 2em;
+    height: 2em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input:focus,
+input:valid {
+    background: var(--input);
+    border-radius: 0.25em;
+    box-shadow: none;
+    padding: 0.75em 1em;
+    transition-duration: calc(var(--dur) * 0.25);
+    transition-delay: calc(var(--dur) * 0.25);
+    width: 100%;
+    height: 3em;
+}
+
+input:focus {
+    animation: showCaret var(--dur) steps(1);
+    outline: transparent;
+}
+
+input:focus+.caret,
+input:valid+.caret {
+    animation: handleToCaret var(--dur) linear;
+    background: transparent;
+    width: 1px;
+    height: 1.5em;
+    transform: translate(0, -1em) rotate(-180deg) translate(7.5em, -0.25em);
+}
+
+input::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+label {
+    color: #e3e4e8;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.caret {
+    background: currentColor;
+    border-radius: 0 0 0.125em 0.125em;
+    margin-bottom: -0.6em;
+    width: 0.25em;
+    height: 1em;
+    transform: translate(0, -1em) rotate(-45deg) translate(0, 0.875em);
+    transform-origin: 50% 0;
+}
+
+/* Dark mode */
+ @media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #17181c;
+        --fg: #e3e4e8;
+        --input: #777777;
+        --primary: #5583f6;
+    }
+}
+
+/* Animations */
+ @keyframes showCaret {
+    from {
+        caret-color: transparent;
+    }
+
+    to {
+        caret-color: var(--primary);
+    }
+}
+
+@keyframes handleToCaret {
+    from {
+        background: currentColor;
+        width: 0.25em;
+        height: 1em;
+        transform: translate(0, -1em) rotate(-45deg) translate(0, 0.875em);
+    }
+
+    25% {
+        background: currentColor;
+        width: 0.25em;
+        height: 1em;
+        transform: translate(0, -1em) rotate(-180deg) translate(0, 0.875em);
+    }
+
+    50%,
+    62.5% {
+        background: var(--primary);
+        width: 1px;
+        height: 1.5em;
+        transform: translate(0, -1em) rotate(-180deg) translate(7.5em, 2.5em);
+    }
+
+    75%,
+    99% {
+        background: var(--primary);
+        width: 1px;
+        height: 1.5em;
+        transform: translate(0, -1em) rotate(-180deg) translate(7.5em, -0.25em);
+    }
+
+    87.5% {
+        background: var(--primary);
+        width: 1px;
+        height: 1.5em;
+        transform: translate(0, -1em) rotate(-180deg) translate(7.5em, 0.125em);
+    }
+
+    to {
+        background: transparent;
+        width: 1px;
+        height: 1.5em;
+        transform: translate(0, -1em) rotate(-180deg) translate(7.5em, -0.25em);
+    }
+}
+
+
+
+/* ////////////////////// btn search end //////////////////// */

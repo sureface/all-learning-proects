@@ -1,0 +1,112 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a{
+    color: #555;
+}
+a:hover{
+    text-decoration: none;
+    color: #555;                
+}
+.dumalo{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.box{
+    position: relative;
+}
+.kochw{
+    position: absolute;
+    top: 239px;
+    right: -60px;
+}
+.hline{
+    line-height: 30px;
+}
+.give{
+    padding-top: 300px;
+}
+.box1{
+    padding-top: 170px;
+}
+.bg{
+    padding-right: 100px;
+}
+.hey{
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+}
+.boshqa{
+    color: #000;
+}
+li{
+    padding-bottom: 1rem;
+}
+.hh{
+    transition: 0.5s;
+}
+.hh:hover{
+    padding-left: 30px;
+    font-size: 18px;
+    color: cyan;
+}
+.qale{
+    padding-left: 6rem;
+}
+.qalee{
+    padding-left: 5rem;
+}
+.icon{
+    padding-left: 100px;
+}
+.ok:hover{
+    color: red;
+}
+.ole:hover{
+    color: rgb(0, 153, 255);
+}
+.test {
+    position: relative;
+  }
+  
+  .text-dark {
+    margin: 0 5px;
+  }
+  
+  .test::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background: #444;
+    right: 20px;
+    bottom: -1px;
+  }
+  .osh{
+      margin-left: 40px;
+  }
+.up{
+    transition: 0.5s; 
+}
+.up:hover{
+    font-size: 20px;
+}
+.top{
+    padding-top: 100px;
+}
+.bro1{
+    border-radius: 50%;
+}
+.ha{
+    color: rgb(255, 251, 0);
+}
+.said{
+ height: 350px;   
+}
+.zokir{
+    height: 350px;
+}

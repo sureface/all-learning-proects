@@ -1,0 +1,104 @@
+/*********************  FONTS STYLE *************************/
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../asssets/fonts/Inter/Inter-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../asssets/fonts/Inter/Inter-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../asssets/fonts/Inter/Inter-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../asssets/fonts/Inter/Inter-SemiBold.ttf") format("truetype"); }
+.font-intel-bold {
+  font-family: "Inter-Bold", sans-serif; }
+
+.font-intel-regular {
+  font-family: "Inter-Regular", sans-serif; }
+
+.font-intel-light {
+  font-family: "Inter-Light", sans-serif; }
+
+.font-inter-semi-bold {
+  font-family: "Inter-SemiBold", sans-serif; }
+
+body header nav {
+  margin-top: 50px;
+  padding: 0 !important; }
+  body header nav li {
+    display: flex;
+    align-items: center; }
+  body header nav .bar {
+    margin-right: 30px;
+    width: 27px;
+    height: 20px; }
+  body header nav .logo {
+    width: 215px;
+    height: 33px; }
+  body header nav .little {
+    font-size: 5px; }
+  body header nav .navButton {
+    position: relative;
+    display: inline-block;
+    padding: 6px 6px;
+    color: #201F1E;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-style: normal;
+    line-height: 19px;
+    transition: 0.5s;
+    margin-right: 11px; }
+    body header nav .navButton span {
+      position: relative;
+      z-index: 3; }
+    body header nav .navButton:hover {
+      text-decoration: none;
+      color: #0A7F2E;
+      border: 2px solid #0A7F2E; }
+    body header nav .navButton::before {
+      content: '';
+      position: absolute;
+      top: 6px;
+      left: -2px;
+      width: calc(100% + 4px);
+      height: calc(100% - 12px);
+      background: #fff;
+      transition: 0.5s ease-in-out;
+      transform: scaleY(1);
+      transition-delay: 0.5s; }
+    body header nav .navButton::after {
+      content: '';
+      position: absolute;
+      left: 6px;
+      top: -2px;
+      height: calc(100% + 4px);
+      width: calc(100% - 12px);
+      background: #fff;
+      transition: 0.5s ease-in-out;
+      transform: scaleX(1); }
+body header .boxForH2 {
+  width: 77%;
+  padding-top: 150px; }
+  body header .boxForH2 .h2 {
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 48px;
+    color: #201F1E; }
+body header .boxForP {
+  width: 70%;
+  padding-top: 40px; }
+  body header .boxForP p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    color: #8A8A8A; }
+
+/*# sourceMappingURL=main.css.map */

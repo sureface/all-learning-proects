@@ -1,0 +1,380 @@
+/*********************  FONTS STYLE *************************/
+@font-face {
+  font-family: "Lato-Black";
+  src: url("../asssets/fonts/Inter/Lato-Black.ttf") format("truetype"); }
+@font-face {
+  font-family: "Lato-Black-Italic";
+  src: url("../asssets/fonts/Inter/Lato-BlackItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../asssets/fonts/Inter/Lato-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Lato-Bold-Italic";
+  src: url("../asssets/fonts/Inter/Lato-BoldItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../asssets/fonts/Inter/Lato-Regular.ttf") format("truetype"); }
+.font-lato-black {
+  font-family: "Lato-Black", sans-serif; }
+
+.font-lato-black-italic {
+  font-family: "Lato-Black-Italic", sans-serif; }
+
+.font-lato-bold {
+  font-family: "Lato-Bold", sans-serif; }
+
+.font-lato-bold-italic {
+  font-family: "Lato-Bold-Italic", sans-serif; }
+
+.font-lato-regular {
+  font-family: "Lato-Regular", sans-serif; }
+
+.focused {
+  overflow: hidden; }
+
+header {
+  background-image: url("../asssets/images/Bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  header .container nav a {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px; }
+  header .container nav ul a {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px; }
+  header .container .country {
+    background: none !important;
+    outline: none !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 15px; }
+    header .container .country option {
+      background: #CF3C24;
+      border: 0;
+      outline: none; }
+  header .container button {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    box-shadow: none;
+    transition: linear 0.5s; }
+    header .container button:hover {
+      color: #CF3C24;
+      background: #fff; }
+  header .col-12 {
+    margin-top: 177px; }
+    header .col-12 h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 72px;
+      line-height: 86px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+    header .col-12 h2 {
+      margin-top: 39px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 150%;
+      color: #FFFFFF; }
+    header .col-12 .knopkasignup {
+      margin-top: 56px;
+      padding-bottom: 400px; }
+      header .col-12 .knopkasignup .mowno {
+        border-radius: 6px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ED4C5C;
+        padding: 19px 51px;
+        box-shadow: none;
+        transition: linear 0.5s; }
+        header .col-12 .knopkasignup .mowno:hover {
+          background: #E15057;
+          color: #FFFFFF;
+          border-color: #fff; }
+
+main {
+  margin-top: 140px; }
+  main .container h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000; }
+  main .container h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000; }
+  main .container a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #ED4C5C; }
+    main .container a:hover {
+      text-decoration: none; }
+  main .container .easytouse {
+    margin-top: 70px; }
+  main .container .player {
+    position: relative; }
+    main .container .player .playsound {
+      position: absolute;
+      top: 124px;
+      left: -15px;
+      cursor: pointer; }
+      main .container .player .playsound img {
+        padding: 26px;
+        border-radius: 50%;
+        background-color: #ED4C5C; }
+
+section {
+  background: #FAFAFA;
+  margin-top: 95px; }
+  section .container .features {
+    margin-top: 63px; }
+    section .container .features h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 43px;
+      text-align: center; }
+  section .container .col-4 {
+    margin-top: 73px;
+    padding-bottom: 300px;
+    position: relative; }
+    section .container .col-4 .card {
+      background-color: white;
+      box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 8px !important;
+      width: 314px !important;
+      position: absolute;
+      left: 34.5px;
+      top: 163px; }
+      section .container .col-4 .card .card-header {
+        background-color: white;
+        border: 0 !important; }
+        section .container .col-4 .card .card-header h2 {
+          padding-top: 20px;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 22px; }
+      section .container .col-4 .card .card-body h3 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%; }
+      section .container .col-4 .card .card-footer {
+        background-color: white;
+        border: 0 !important; }
+        section .container .col-4 .card .card-footer h4 {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 150%;
+          color: #ED4C5C; }
+
+.techno .container .col-12 {
+  margin-top: 63px; }
+  .techno .container .col-12 h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center; }
+.techno .container .col-3 {
+  margin-top: 53px; }
+  .techno .container .col-3 .card {
+    border: 0; }
+    .techno .container .col-3 .card .accaAka {
+      position: relative; }
+      .techno .container .col-3 .card .accaAka .accaunt {
+        position: absolute;
+        top: 57px;
+        left: 100px; }
+    .techno .container .col-3 .card .card-img-top {
+      width: 157px;
+      height: 103px; }
+    .techno .container .col-3 .card .card-body h2 {
+      margin-top: 29px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center; }
+    .techno .container .col-3 .card .card-body h3 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #000000; }
+
+.focused {
+  background-color: #ED4C5C;
+  margin-top: 108px; }
+  .focused .container {
+    padding-top: 122px;
+    padding-bottom: 115px; }
+    .focused .container .stayF h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 43px;
+      color: #FFFFFF; }
+    .focused .container .stayF h2 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 140%;
+      margin-top: 24px;
+      text-align: justify;
+      color: #FFFFFF; }
+    .focused .container .stayF .ucala {
+      margin-top: 44px;
+      width: 30%; }
+    .focused .container .photoUch .otasi {
+      position: relative; }
+      .focused .container .photoUch .otasi .ortada {
+        position: absolute;
+        top: -55px;
+        left: 63px; }
+        .focused .container .photoUch .otasi .ortada img {
+          width: 656px;
+          height: 365px; }
+
+.contact {
+  margin-top: 117px; }
+  .contact .container {
+    padding-bottom: 100px; }
+    .contact .container .contactIci h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 43px;
+      color: #000000; }
+    .contact .container .contactIci h2 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 140%;
+      margin-top: 96px;
+      text-align: justify;
+      color: #000000; }
+    .contact .container .formjonla input {
+      padding: 30px;
+      border: 1px solid #333333;
+      border-radius: 6px;
+      box-shadow: none; }
+    .contact .container .formjonla .lastName {
+      margin-left: 13px; }
+    .contact .container .formjonla .phoneNum {
+      margin-top: 29px; }
+    .contact .container .formjonla .formsel {
+      border: 1px solid #333333;
+      border-radius: 6px;
+      height: 64px;
+      box-shadow: none; }
+    .contact .container .formjonla .now {
+      margin-top: 27px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      transition: linear 0.6s;
+      color: #FFFFFF;
+      background: #ED4C5C;
+      border: 1.5px solid #ED4C5C;
+      border-radius: 6px;
+      padding: 15px 34px; }
+      .contact .container .formjonla .now:hover {
+        color: #ED4C5C;
+        background: #fff;
+        border: 1.5px solid #ED4C5C;
+        border-radius: 6px; }
+
+footer {
+  background: #FAFAFA; }
+  footer .container {
+    padding-top: 85px; }
+    footer .container .adres li a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 150%;
+      color: #101010; }
+      footer .container .adres li a:hover {
+        color: red;
+        font-size: 14px; }
+    footer .container .adres h5 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #101010; }
+    footer .container .servis h5 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #101010; }
+    footer .container .servis li a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 160%;
+      color: #000000; }
+      footer .container .servis li a:hover {
+        color: red;
+        font-size: 14px;
+        padding-left: 10px; }
+    footer .container .touch h5 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #101010; }
+    footer .container .touch li a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: #101010;
+      transition: linear 0.5s; }
+      footer .container .touch li a:hover {
+        color: red;
+        font-size: 14px;
+        padding-left: 10px; }
+    footer .container .touch .twitter {
+      width: 50%; }
+    footer .container .visa h5 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #101010; }
+    footer .container .codeAb p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: #101010;
+      padding: 86px 0px; }
+
+/*# sourceMappingURL=main.css.map */

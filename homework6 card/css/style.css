@@ -1,0 +1,73 @@
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    position: relative;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.btn{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 17px;
+}
+.box2{
+    display: flex;
+}
+.star{
+      color: rgb(251, 255, 0);
+}
+.star_grey{
+    color: gray;
+}
+.graycha{
+    color: gray;
+}
+.pcha{
+    color: black;
+    padding-left: 10px;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.kichik{
+    font-size: 16px;
+}
+.soat{
+    font-size: 20px;
+}
+.box3{
+    display: flex;
+    padding-top: 10px;
+}
+.paddingcha{
+    padding-left: 20px ;
+}
+.icon{
+    padding-top: 21px;
+    padding-left: 50px;
+    color: rgb(0, 119, 255);
+}
+.uzb{
+    color: gray;
+}
+.take{
+    padding: 30px;
+}
+.box{
+    border-radius: 6px;
+    box-shadow: grey 0 2px 2px;
+}
+.kotta{
+    height: 198px;
+}
+.ozi{
+    height: 198px;
+}
+.row{
+    margin-top: 100px;
+}
